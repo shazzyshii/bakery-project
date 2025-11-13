@@ -1,4 +1,7 @@
 import { MdOutlineStarPurple500 } from "react-icons/md";
+import React from 'react';
+import person1 from '../assets/person1.jpg';
+import person2 from '../assets/person2.jpg';
 
 function Testimonials () {
     return (
@@ -27,10 +30,16 @@ function Testimonials () {
                         </div>
                             <p class="italic mb-4 text-white">"The most beautiful and delicious wedding cake I've ever seen! Elena captured our vision perfectly."</p>
                             <div class="flex items-center">
-                                <img src="https://via.placeholder.com/50" alt="Customer 1" class="w-12 h-12 rounded-full mr-4"/>
-                                <div>
+                                <div className="testimonials-container">
+                                <div className="testimonial-card">
+                                        <img 
+                                        src={person1}
+                                        alt="Portrait of Sarah Johnson"
+                                        className="w-12 h-12 rounded-full mr-4"
+                                        />
                                     <p class="font-medium text-white">Sarah Johnson</p>
                                     <p class="text-sm text-gray-500">Wedding client</p>
+                                </div>
                                 </div>
                             </div>
                     </div>
@@ -55,7 +64,15 @@ function Testimonials () {
                         </div>
                             <p class="italic mb-4 text-white">"I stop by every Saturday for their sourdough. It's the best bread I've found in the city!"</p>
                             <div class="flex items-center">
-                                <img src="https://via.placeholder.com/50" alt="Customer 2" class="w-12 h-12 rounded-full mr-4"/>
+                                <div className="testimonials-container">
+                                <div className="testimonial-card">
+                                        <img 
+                                        src={person2}
+                                        alt="Portrait of Michael Lee"
+                                        className="w-12 h-12 rounded-full mr-4"
+                                        />
+                                </div>
+                                </div>
                                 <div>
                                     <p class="font-medium text-white">Michael Lee</p>
                                     <p class="text-sm text-gray-500">Regular customer</p>
@@ -64,6 +81,7 @@ function Testimonials () {
                     </div>
                 </div>
             </div>
+        
         </section>
     );
 }
