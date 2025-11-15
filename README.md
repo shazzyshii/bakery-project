@@ -2,7 +2,6 @@
 My react  project
 Sugar & Spice Art Bakery
 Live Demo
-https://sugar-spice-bakery.netlify.app
 
 Project Overview
 Sugar & Spice Art Bakery is a premium artisanal bakery specializing in custom-designed cakes, pastries, and breads that blend exceptional flavor with artistic presentation. Our website showcases our commitment to transforming simple ingredients into edible works of art, offering customers an immersive digital experience that reflects our brand's sophistication and creativity.
